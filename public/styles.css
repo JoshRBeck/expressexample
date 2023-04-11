@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+}
+.body {
+  display: flex;
+}
+.nav-bar {
+  display: flex;
+  background: linear-gradient(to bottom, #009900 0%, #ffffff 100%);
+}
+.header-one {
+  width: 50%;
+  display: flex;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.header-two {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 15px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+.header-two span {
+  padding: 10px 25px 10px 25px;
+}
+.jungle-image {
+  width: 100%;
+  height: 100%;
+}
+.header p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow:2px 4px 4px rgba(0,0,0,0.6);
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+.achievements-total {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.achievements-one {
+  width: 100%;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+.achievements-two {
+  width: 50%;
+}
+.achievements-one achievements {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.achievements-two aside {
+  width: 50%;
+  display: flex;
+  
+}
+.about-text {
+  text-align: left;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
